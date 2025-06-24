@@ -1,80 +1,50 @@
-# 💬 MERN Stack Real-Time Chat App
+# 💬 Quick Chat
 
-A full-featured real-time chat application built using the **MERN Stack** (MongoDB, Express.js, React.js, Node.js) with **Socket.IO** for live messaging, image sharing via **Cloudinary**, secure **authentication**, and **OTP-based password reset** using **Nodemailer**.
-
----
-
-## 🔥 Features
-
-✅ User Registration & Login  
-✅ OTP Verification for Forgot Password (via Email using Nodemailer)  
-✅ JWT Authentication  
-✅ Real-Time Messaging with Socket.IO  
-✅ Unseen Messages Count (Number Badge)  
-✅ Typing Indicator ("Typing..." message)  
-✅ Image Messages (Uploaded to Cloudinary)  
-✅ Profile Update & Delete Functionality  
-✅ MongoDB for Persistent Storage  
+**Quick Chat** is a real-time chat application built using the MERN stack and Socket.io. It allows users to send and receive messages instantly with a responsive and modern UI. This project demonstrates real-time communication, authentication, and scalable frontend-backend architecture.
 
 ---
 
-## 🚀 Technologies Used
+## 🚀 Tech Stack
 
-### 📦 Backend
-- Node.js
-- Express.js
-- MongoDB & Mongoose
-- Socket.IO
-- Cloudinary SDK
-- Nodemailer
-- dotenv
-
-### 💻 Frontend
-- React.js (Hooks, Context API)
-- Axios
-- Tailwind CSS
-- React Router
-- Toast Notifications (react-hot-toast)
+- **Frontend**: React, Vite, Context API
+- **Backend**: Node.js, Express
+- **Database**: MongoDB, Mongoose
+- **Real-time**: Socket.io
+- **Styling**: CSS
 
 ---
 
-## 🧠 Project Structure
+## 📁 Project Structure
 
 chat-app/
-├── client/                    # Frontend (React)
-│   ├── context/              # React context for state management
-│   ├── node_modules/         # Frontend dependencies
-│   ├── public/               # Public assets
-│   └── src/                  # Source files
-│       ├── assets/          # Images and static files
-│       ├── components/      # Reusable UI components
-│       ├── lib/             # Helper functions or API utils
-│       ├── pages/           # React pages
-│       ├── App.jsx
-│       ├── main.jsx
-│       └── index.css
+├── client/ # React frontend
+│ ├── context/ # React context for auth/state
+│ ├── public/ # Static files
+│ └── src/ # Source code
+│ ├── assets/ # Images and static assets
+│ ├── components/ # UI components
+│ ├── lib/ # Utility functions
+│ ├── pages/ # Page components
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
 │
-├── server/                   # Backend (Node.js + Express)
-│   ├── controllers/         # Route handlers
-│   ├── lib/                 # Utility files (e.g., DB config)
-│   ├── middlewares/        # Express middlewares
-│   ├── models/              # Mongoose models
-│   ├── routes/              # API routes
-│   ├── server.js            # Entry point
-│   ├── .env                 # Environment variables
-│   └── package.json         # Backend dependencies
+├── server/ # Express backend
+│ ├── controllers/ # Route logic
+│ ├── lib/ # DB connection and helpers
+│ ├── middlewares/ # Custom middlewares
+│ ├── models/ # Mongoose schemas
+│ ├── routes/ # API routes
+│ ├── server.js # Entry point
+│ └── .env # Environment variables
 │
 ├── .gitignore
-├── vite.config.js           # Vite config for frontend
-├── package.json             # Root dependencies
 ├── README.md
 
 
----
-
 ## 👨‍💻 About the Developer
 
-**Tejas Birla**
-Email: [tejasbirla3@gmail.com]  
+# Tejas Birla
+# tejasbirla3@gmail.com
 
-Passionate full-stack developer with a focus on building real-time web applications using modern JavaScript technologies like React, Node.js, Express, and Socket.io.
+Passionate full-stack developer focused on building real-time applications using modern web technologies.
