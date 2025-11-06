@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs";
 import { generateOTP, generateToken } from "../lib/utils.js";
 import cloudinary from "../lib/cloudinary.js";
 import Message from "../models/messageModel.js";
-import sendEmail from "../lib/nodemailer.js";
+import sendEmail from "../lib/resendApiMail.js";
 
 //Signup new user function
 export const Signup = async (req, res) => {
