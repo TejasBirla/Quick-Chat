@@ -8,11 +8,18 @@ import { AuthContext } from "../context/AuthContext.jsx";
 import ForgotPass from "./pages/ForgotPass.jsx";
 import OtpVerify from "./pages/OtpVerify.jsx";
 import ResetPass from "./pages/ResetPass.jsx";
+import bgImg from "../src/assets/bgImage.svg";
 
 export default function App() {
   const { authUser } = useContext(AuthContext);
   return (
-    <div className="bg-[url('./src/assets/bgImage.svg')] bg-contain">
+    <div
+      style={{
+        backgroundImage: `url(${bgImg})`,
+        backgroundSize: "contain",
+        minHeight: "100vh",
+      }}
+    >
       <Toaster />
       <Routes>
         <Route
