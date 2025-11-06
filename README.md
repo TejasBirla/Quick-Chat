@@ -29,7 +29,7 @@
 - ✍️ Typing indicator when a user is typing  
 - 👤 Update user profile (name, photo, etc.)  
 - ❌ Delete user account  
-- 🔐 Secure password reset via email OTP (Nodemailer)  
+- 🔐 Secure password reset via email OTP  
 - 🔒 JWT-based authentication and protected routes  
 
 ---
