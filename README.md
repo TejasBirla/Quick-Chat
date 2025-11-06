@@ -6,28 +6,31 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 ![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
 
-**Quick Chat** is a real-time chat application built using the MERN stack and Socket.io. It allows users to send and receive messages instantly with a responsive and modern UI. This project demonstrates real-time communication, authentication, and scalable frontend-backend architecture.
+**Quick Chat** is a real-time chat application built using the MERN stack and Socket.io. It allows users to send and receive messages instantly with a clean and modern UI.  
+> ⚠️ **Note:** This project is currently optimized for **desktop and laptop devices**. Mobile responsiveness will be added in a future update.
 
 ---
 
 ## 🚀 Tech Stack
 
-- **Frontend**: React, Vite, Context API
-- **Backend**: Node.js, Express
-- **Database**: MongoDB, Mongoose
-- **Real-time**: Socket.io
-- **Styling**: Tailwind CSS
+- **Frontend**: React, Vite, Context API  
+- **Backend**: Node.js, Express  
+- **Database**: MongoDB, Mongoose  
+- **Real-time**: Socket.io  
+- **Styling**: Tailwind CSS  
+
+---
 
 ## 🔧 Features
 
-- ✅ Real-time one-on-one messaging with Socket.io
-- 🖼️ Send and receive image files in chat
-- 🔔 Unread message badge for unseen messages
-- ✍️ Typing indicator when a user is typing
-- 👤 Update user profile (name, photo, etc.)
-- ❌ Delete user account
-- 🔐 Secure password reset via email OTP (Nodemailer)
-- 🔒 JWT-based authentication and protected routes
+- ✅ Real-time one-on-one messaging with Socket.io  
+- 🖼️ Send and receive image files in chat  
+- 🔔 Unread message badge for unseen messages  
+- ✍️ Typing indicator when a user is typing  
+- 👤 Update user profile (name, photo, etc.)  
+- ❌ Delete user account  
+- 🔐 Secure password reset via email OTP (Nodemailer)  
+- 🔒 JWT-based authentication and protected routes  
 
 ---
 
@@ -37,4 +40,3 @@
 📧 [tejasbirla3@gmail.com](mailto:tejasbirla3@gmail.com)
 
 I’m a passionate full-stack developer focused on building real-time and scalable web applications using modern technologies like React, Node.js, MongoDB, and Socket.io. Always eager to learn and explore new tools in the developer ecosystem.
-
