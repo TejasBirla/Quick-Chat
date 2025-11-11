@@ -66,6 +66,10 @@ app.use("/api/messages", MessageRouter);
 //Connect to mongodb
 await connectDB();
 
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "ok" });
+});
+
 //PORT running
 server.listen(PORT, () => {
   console.log(`Server running at: http://localhost:${PORT}`);
